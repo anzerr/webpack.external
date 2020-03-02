@@ -4,10 +4,17 @@
 
 #### `Install`
 ``` bash
-npm install --save git+https://git@github.com/anzerr/<?>.git
+npm install --save git+https://git@github.com/anzerr/webpack.external.git
 ```
 
 ### `Example`
 ``` javascript
-console.log('usage');
+const externals = require('webpack.external');
+...
+module.exports = {
+    ...
+    target: 'node',
+    externals: [externals()],
+    ...
+};
 ```
