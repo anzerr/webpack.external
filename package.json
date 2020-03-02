@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"linter": "eslint index.js ./src/**/*",
+		"test": "node test.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -17,7 +18,6 @@
 	},
 	"dependencies": {
 		"fs.promisify": "git+https://github.com/anzerr/fs.promisify.git",
-		"promise.util": "git+https://git@github.com/anzerr/promise.util.git",
 		"type.util": "git+https://github.com/anzerr/type.util.git"
 	}
 }

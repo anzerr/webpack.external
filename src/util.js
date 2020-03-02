@@ -1,3 +1,4 @@
+
 const fs = require('fs.promisify'),
 	path = require('path'),
 	is = require('type.util'),
