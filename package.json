@@ -4,18 +4,12 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"linter": "eslint index.js ./src/**/*",
 		"test": "node test.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
-	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
-	},
+	"devDependencies": {},
 	"dependencies": {
 		"fs.promisify": "git+https://github.com/anzerr/fs.promisify.git",
 		"type.util": "git+https://github.com/anzerr/type.util.git"
